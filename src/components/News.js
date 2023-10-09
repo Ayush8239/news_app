@@ -96,7 +96,7 @@ export default class News extends Component {
         return (
             <div className='container text-center ' >
                 <h1>Top News</h1>
-                {this.state.loading === true&& <Loading/>}
+                {this.state.loading === true && <Loading/>}
 
                 <InfiniteScroll
                 dataLength={this.state.articles.length}
